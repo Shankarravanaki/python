@@ -43,3 +43,44 @@
 # p,q=q,p
 # print("value",q)
 
+#8.python program to check if a numbersis positive negative or 0
+
+# n=-5
+# if(n>0):
+#     print("value of number is positive",n)
+# elif(n<0):
+#     print("value of number  is nagative",n)
+# else:print("value is 0")
+
+#9. program to vfind even and odd numbers
+
+# n=10
+# if(n%2==0):
+#     print("given number is even",n)
+# else:
+#     print("given number is odd",n)
+
+#10.program to find the largest of three numbers
+
+# num1,num2,num3=10,17,27
+# if(num1>=num2)and (num1>=num3):
+#     largest=num1
+# elif(num2>=num1) and (num2>=num3):
+#     largerst= num2
+# else:
+#     largest=num3
+# print("the largestb number is ",largest)
+
+#11. program to find factorial of number
+# num=15
+# factorial=1
+# for i in range(1,num+1):
+#     factorial = factorial*i
+#     print("the factorial of",num,"is",factorial)
+
+# def fibonacci(n):
+#         if(n==1)or(n==2):
+#             return 1
+#         else:
+#             return fibonacci(n-1)+ fibonacci(n-2)
+# print(fibonacci(15))
