@@ -43,4 +43,3 @@
 # p,q=q,p
 # print("value",q)
 
-#python program to check if a numbersis positive negative or 0
