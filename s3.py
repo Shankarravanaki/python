@@ -129,4 +129,6 @@
 #     for i in range(1,n+1):
 #         print(""*(n-i)+"*"*(i))
     
-    
+# s="hello python"
+# # print(s)
+# s[-4]
