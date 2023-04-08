@@ -84,3 +84,18 @@
 #         else:
 #             return fibonacci(n-1)+ fibonacci(n-2)
 # print(fibonacci(15))
+
+# a=9
+# b=4
+# c=a**b
+# c
+
+x="a"
+y="b"
+ans=x is  y
+print(ans)
+
+x="a"
+y="b"
+ans=x is not y
+print(ans)
