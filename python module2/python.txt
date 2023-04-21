@@ -1,0 +1,4 @@
+
+ STUDENT ID CARD	 enter the name
+ enter the DOB
+ enter the ROLL NUMBER
