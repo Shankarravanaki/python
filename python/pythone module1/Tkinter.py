@@ -39,7 +39,7 @@
 #     input_rol_no=txt3.get()
 #     print(input_rol_no)
 #     input_DOB=txt4.get()
-#     print(input_DOB)
+#     print(input_DOB).
    
     
 
