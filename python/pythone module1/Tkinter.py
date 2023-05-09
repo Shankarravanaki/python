@@ -29,40 +29,49 @@
 # student_id=tk.Label(main,text="student id").grid(row=8,column=1)
 
 
-
+# from tkinter import *
 import tkinter as tk
+
+def call():
+    
+    input_label=(txt1.get())
+    print(input_label)
+    # input_label2=(txt2.get())
+    # print(input_label2)
+    # input_label3=(txt3.get())
+    # print(input_label3)
+    # input_label4=(txt4.get())
+    # print(input_label4)
+    # input_label5=(txt5.get())
+    # print(input_label5)
+    # input_label6=(txt6.get())
+    # print(input_label6)
+
 
 main=tk.Tk(className="student id ")
 main.geometry("400x400")
-main.configure(bg="#FF69B4")
-
-def call():
-    input_name=txt1.get()
-    print(input_name)
-    input_id=txt2.get()
-    print(input_id)
-    input_rol_no=txt3.get()
-    print(input_rol_no)
-    input_DOB=txt4.get()
-    print(input_DOB)
-   
-    
 
 
 
-name=tk.Label(main,text="student name").grid(row=0,column=0)
+label1=tk.Label(main,text="student Name").grid(row=0,column=0)
 txt1=tk.Entry(main).grid(row=0,column=1)
-id=tk.Label(main,text="student id").grid(row=1,column=0)
+
+label2=tk.Label(main,text="STUDENT CLASS").grid(row=1,column=0)
 txt2=tk.Entry(main).grid(row=1,column=1)
-rol_no=tk.Label(main,text="student ROLL NUMBER").grid(row=2,column=0)
+
+label3=tk.Label(main,text="STUDENT ROLL NUMBER").grid(row=2,column=0)
 txt3=tk.Entry(main).grid(row=2,column=1)
-DOB=tk.Label(main,text="student DOB").grid(row=3,column=0)
+
+labe4=tk.Label(main,text="STUDENT DOB").grid(row=3,column=0)
 txt4=tk.Entry(main).grid(row=3,column=1)
-btn1=tk.Button(main,text="submit",command=call).grid(row=4,column=1)
 
+labe5=tk.Label(main,text="STUDENT AREA").grid(row=4,column=0)
+txt5=tk.Entry(main).grid(row=4,column=1)
 
+labe6=tk.Label(main,text="PHONE NUMBER").grid(row=5,column=0)
+txt6=tk.Entry(main).grid(row=5,column=1)
 
-
+btn1=tk.Button(main,text="SUBMIT",command=call).grid(row=6,column=1)
 
 
 main.mainloop()
