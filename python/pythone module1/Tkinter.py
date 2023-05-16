@@ -34,18 +34,18 @@ import tkinter as tk
 
 def call():
     
-    input_label=(txt1.get())
+    input_label=(Txt1.get())
     print(input_label)
-    # input_label2=(txt2.get())
-    # print(input_label2)
-    # input_label3=(txt3.get())
-    # print(input_label3)
-    # input_label4=(txt4.get())
-    # print(input_label4)
-    # input_label5=(txt5.get())
-    # print(input_label5)
-    # input_label6=(txt6.get())
-    # print(input_label6)
+    input_label2=(txt2.get())
+    print(input_label2)
+    input_label3=(txt3.get())
+    print(input_label3)
+    input_label4=(txt4.get())
+    print(input_label4)
+    input_label5=(txt5.get())
+    print(input_label5)
+    input_label6=(txt6.get())
+    print(input_label6)
 
 
 main=tk.Tk(className="student id ")
@@ -54,7 +54,7 @@ main.geometry("400x400")
 
 
 label1=tk.Label(main,text="student Name").grid(row=0,column=0)
-txt1=tk.Entry(main).grid(row=0,column=1)
+Txt1=tk.Entry(main).grid(row=0,column=1)
 
 label2=tk.Label(main,text="STUDENT CLASS").grid(row=1,column=0)
 txt2=tk.Entry(main).grid(row=1,column=1)
